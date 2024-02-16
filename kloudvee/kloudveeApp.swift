@@ -11,7 +11,7 @@ import SwiftUI
 struct kloudveeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            KloudveeStartView()
         }
     }
 }
