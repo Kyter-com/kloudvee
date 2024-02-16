@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3448C8D02B80095D00D7A42E /* kloudveeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */; };
+		3448C8D22B80095D00D7A42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8D12B80095D00D7A42E /* ContentView.swift */; };
+		3448C8D42B80095F00D7A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3448C8D32B80095F00D7A42E /* Assets.xcassets */; };
+		3448C8D82B80095F00D7A42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3448C8D72B80095F00D7A42E /* Preview Assets.xcassets */; };
+		3448C8E22B80095F00D7A42E /* kloudveeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8E12B80095F00D7A42E /* kloudveeTests.swift */; };
+		3448C8EC2B80095F00D7A42E /* kloudveeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8EB2B80095F00D7A42E /* kloudveeUITests.swift */; };
+		3448C8EE2B80095F00D7A42E /* kloudveeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8ED2B80095F00D7A42E /* kloudveeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3448C8DE2B80095F00D7A42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3448C8C42B80095D00D7A42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3448C8CB2B80095D00D7A42E;
+			remoteInfo = kloudvee;
+		};
+		3448C8E82B80095F00D7A42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3448C8C42B80095D00D7A42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3448C8CB2B80095D00D7A42E;
+			remoteInfo = kloudvee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3448C8CC2B80095D00D7A42E /* kloudvee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kloudvee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kloudveeApp.swift; sourceTree = "<group>"; };
+		3448C8D12B80095D00D7A42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3448C8D32B80095F00D7A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3448C8D52B80095F00D7A42E /* kloudvee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kloudvee.entitlements; sourceTree = "<group>"; };
+		3448C8D72B80095F00D7A42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3448C8DD2B80095F00D7A42E /* kloudveeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kloudveeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3448C8E12B80095F00D7A42E /* kloudveeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kloudveeTests.swift; sourceTree = "<group>"; };
+		3448C8E72B80095F00D7A42E /* kloudveeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kloudveeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3448C8EB2B80095F00D7A42E /* kloudveeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kloudveeUITests.swift; sourceTree = "<group>"; };
+		3448C8ED2B80095F00D7A42E /* kloudveeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kloudveeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3448C8C92B80095D00D7A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8DA2B80095F00D7A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8E42B80095F00D7A42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3448C8C32B80095D00D7A42E = {
+			isa = PBXGroup;
+			children = (
+				3448C8CE2B80095D00D7A42E /* kloudvee */,
+				3448C8E02B80095F00D7A42E /* kloudveeTests */,
+				3448C8EA2B80095F00D7A42E /* kloudveeUITests */,
+				3448C8CD2B80095D00D7A42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3448C8CD2B80095D00D7A42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3448C8CC2B80095D00D7A42E /* kloudvee.app */,
+				3448C8DD2B80095F00D7A42E /* kloudveeTests.xctest */,
+				3448C8E72B80095F00D7A42E /* kloudveeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3448C8CE2B80095D00D7A42E /* kloudvee */ = {
+			isa = PBXGroup;
+			children = (
+				3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */,
+				3448C8D12B80095D00D7A42E /* ContentView.swift */,
+				3448C8D32B80095F00D7A42E /* Assets.xcassets */,
+				3448C8D52B80095F00D7A42E /* kloudvee.entitlements */,
+				3448C8D62B80095F00D7A42E /* Preview Content */,
+			);
+			path = kloudvee;
+			sourceTree = "<group>";
+		};
+		3448C8D62B80095F00D7A42E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3448C8D72B80095F00D7A42E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3448C8E02B80095F00D7A42E /* kloudveeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3448C8E12B80095F00D7A42E /* kloudveeTests.swift */,
+			);
+			path = kloudveeTests;
+			sourceTree = "<group>";
+		};
+		3448C8EA2B80095F00D7A42E /* kloudveeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3448C8EB2B80095F00D7A42E /* kloudveeUITests.swift */,
+				3448C8ED2B80095F00D7A42E /* kloudveeUITestsLaunchTests.swift */,
+			);
+			path = kloudveeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3448C8CB2B80095D00D7A42E /* kloudvee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3448C8F12B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudvee" */;
+			buildPhases = (
+				3448C8C82B80095D00D7A42E /* Sources */,
+				3448C8C92B80095D00D7A42E /* Frameworks */,
+				3448C8CA2B80095D00D7A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kloudvee;
+			productName = kloudvee;
+			productReference = 3448C8CC2B80095D00D7A42E /* kloudvee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3448C8DC2B80095F00D7A42E /* kloudveeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3448C8F42B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudveeTests" */;
+			buildPhases = (
+				3448C8D92B80095F00D7A42E /* Sources */,
+				3448C8DA2B80095F00D7A42E /* Frameworks */,
+				3448C8DB2B80095F00D7A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3448C8DF2B80095F00D7A42E /* PBXTargetDependency */,
+			);
+			name = kloudveeTests;
+			productName = kloudveeTests;
+			productReference = 3448C8DD2B80095F00D7A42E /* kloudveeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3448C8E62B80095F00D7A42E /* kloudveeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3448C8F72B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudveeUITests" */;
+			buildPhases = (
+				3448C8E32B80095F00D7A42E /* Sources */,
+				3448C8E42B80095F00D7A42E /* Frameworks */,
+				3448C8E52B80095F00D7A42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3448C8E92B80095F00D7A42E /* PBXTargetDependency */,
+			);
+			name = kloudveeUITests;
+			productName = kloudveeUITests;
+			productReference = 3448C8E72B80095F00D7A42E /* kloudveeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3448C8C42B80095D00D7A42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3448C8CB2B80095D00D7A42E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3448C8DC2B80095F00D7A42E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3448C8CB2B80095D00D7A42E;
+					};
+					3448C8E62B80095F00D7A42E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3448C8CB2B80095D00D7A42E;
+					};
+				};
+			};
+			buildConfigurationList = 3448C8C72B80095D00D7A42E /* Build configuration list for PBXProject "kloudvee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3448C8C32B80095D00D7A42E;
+			productRefGroup = 3448C8CD2B80095D00D7A42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3448C8CB2B80095D00D7A42E /* kloudvee */,
+				3448C8DC2B80095F00D7A42E /* kloudveeTests */,
+				3448C8E62B80095F00D7A42E /* kloudveeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3448C8CA2B80095D00D7A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448C8D82B80095F00D7A42E /* Preview Assets.xcassets in Resources */,
+				3448C8D42B80095F00D7A42E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8DB2B80095F00D7A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8E52B80095F00D7A42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3448C8C82B80095D00D7A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448C8D22B80095D00D7A42E /* ContentView.swift in Sources */,
+				3448C8D02B80095D00D7A42E /* kloudveeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8D92B80095F00D7A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448C8E22B80095F00D7A42E /* kloudveeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3448C8E32B80095F00D7A42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3448C8EE2B80095F00D7A42E /* kloudveeUITestsLaunchTests.swift in Sources */,
+				3448C8EC2B80095F00D7A42E /* kloudveeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3448C8DF2B80095F00D7A42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3448C8CB2B80095D00D7A42E /* kloudvee */;
+			targetProxy = 3448C8DE2B80095F00D7A42E /* PBXContainerItemProxy */;
+		};
+		3448C8E92B80095F00D7A42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3448C8CB2B80095D00D7A42E /* kloudvee */;
+			targetProxy = 3448C8E82B80095F00D7A42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3448C8EF2B80095F00D7A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3448C8F02B80095F00D7A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3448C8F22B80095F00D7A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kloudvee/kloudvee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kloudvee/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudvee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3448C8F32B80095F00D7A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = kloudvee/kloudvee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"kloudvee/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudvee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3448C8F52B80095F00D7A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudveeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kloudvee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kloudvee";
+			};
+			name = Debug;
+		};
+		3448C8F62B80095F00D7A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudveeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kloudvee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/kloudvee";
+			};
+			name = Release;
+		};
+		3448C8F82B80095F00D7A42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudveeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kloudvee;
+			};
+			name = Debug;
+		};
+		3448C8F92B80095F00D7A42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyter.kloudveeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = kloudvee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3448C8C72B80095D00D7A42E /* Build configuration list for PBXProject "kloudvee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448C8EF2B80095F00D7A42E /* Debug */,
+				3448C8F02B80095F00D7A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3448C8F12B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudvee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448C8F22B80095F00D7A42E /* Debug */,
+				3448C8F32B80095F00D7A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3448C8F42B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudveeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448C8F52B80095F00D7A42E /* Debug */,
+				3448C8F62B80095F00D7A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3448C8F72B80095F00D7A42E /* Build configuration list for PBXNativeTarget "kloudveeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3448C8F82B80095F00D7A42E /* Debug */,
+				3448C8F92B80095F00D7A42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3448C8C42B80095D00D7A42E /* Project object */;
+}
