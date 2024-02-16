@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3448C8D02B80095D00D7A42E /* kloudveeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */; };
-		3448C8D22B80095D00D7A42E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8D12B80095D00D7A42E /* ContentView.swift */; };
+		3448C8D22B80095D00D7A42E /* KloudveeStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8D12B80095D00D7A42E /* KloudveeStartView.swift */; };
 		3448C8D42B80095F00D7A42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3448C8D32B80095F00D7A42E /* Assets.xcassets */; };
 		3448C8D82B80095F00D7A42E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3448C8D72B80095F00D7A42E /* Preview Assets.xcassets */; };
 		3448C8E22B80095F00D7A42E /* kloudveeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3448C8E12B80095F00D7A42E /* kloudveeTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		3448C8CC2B80095D00D7A42E /* kloudvee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kloudvee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kloudveeApp.swift; sourceTree = "<group>"; };
-		3448C8D12B80095D00D7A42E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3448C8D12B80095D00D7A42E /* KloudveeStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KloudveeStartView.swift; sourceTree = "<group>"; };
 		3448C8D32B80095F00D7A42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3448C8D52B80095F00D7A42E /* kloudvee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kloudvee.entitlements; sourceTree = "<group>"; };
 		3448C8D72B80095F00D7A42E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				3448C8CF2B80095D00D7A42E /* kloudveeApp.swift */,
-				3448C8D12B80095D00D7A42E /* ContentView.swift */,
+				3448C8D12B80095D00D7A42E /* KloudveeStartView.swift */,
 				3448C8D32B80095F00D7A42E /* Assets.xcassets */,
 				3448C8D52B80095F00D7A42E /* kloudvee.entitlements */,
 				3448C8D62B80095F00D7A42E /* Preview Content */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3448C8D22B80095D00D7A42E /* ContentView.swift in Sources */,
+				3448C8D22B80095D00D7A42E /* KloudveeStartView.swift in Sources */,
 				3448C8D02B80095D00D7A42E /* kloudveeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
